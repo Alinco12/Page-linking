@@ -1,0 +1,19 @@
+
+header{
+    background-color: rgb(149, 111, 111);
+    display: flex;
+    align-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+header h1{
+    color: blanchedalmond;
+}
+@media only screen and (max-width: 500px){
+    header h2{
+        color: rgb(122, 94, 53);
+    }
+}
